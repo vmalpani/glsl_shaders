@@ -1,0 +1,122 @@
+TCompilerIdCXX
+v6
+r1
+cCheck dependencies
+cCompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+cLd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX normal i386
+cPhaseScriptExecution Run\ Script /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk
+c00000000531F4FAF00000000000000AA
+t1394560943
+s170
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/SDKSettings.plist
+c00000000526980E7000000000000044C
+t1382645991
+s1100
+
+N/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/CoreServices/SystemVersion.plist
+c00000000531F4F8100000000000001DE
+t1394560897
+s478
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+c00000000534045670000000000002E45
+t1396720999
+s11845
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX
+t2
+s0
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+t1396721000
+s3540
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+c000000005340456800000000000000D9
+t1396721000
+s217
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+c0000000053404568000000000000002A
+t1396721000
+s42
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies423f23e87cf0b841^d2a731e87cf0b841^---0#1#1#--18"Check dependencies36"5CC0D5AD-60E2-4CF0-BBB2-CFAB2379FFCD-
+
+CCompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler
+s418413800.192593
+e418413800.217765
+r1
+xCompileC
+xCompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.llvm.clang.1_0.compiler
+d/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection160"Compile /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp178"CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compilerac7231e87cf0b841^c2c037e87cf0b841^---0#0#1#-19%DVTDocumentLocation2@159"file:///Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp0000000000000000^3222"CompileC CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o CMakeCXXCompilerId.cpp normal i386 c++ com.apple.compilers.llvm.clang.1_0.compiler    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX    export LANG=en_US.US-ASCII    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang -x c++ -arch i386 -fmessage-length=0 -fdiagnostics-show-note-include-stack -fmacro-backtrace-limit=0 -Wno-trigraphs -fpascal-strings -Os -Wno-missing-field-initializers -Wno-missing-prototypes -Wno-return-type -Wno-non-virtual-dtor -Wno-overloaded-virtual -Wno-exit-time-destructors -Wno-missing-braces -Wparentheses -Wswitch -Wno-unused-function -Wno-unused-label -Wno-unused-parameter -Wno-unused-variable -Wunused-value -Wno-empty-body -Wno-uninitialized -Wno-unknown-pragmas -Wno-shadow -Wno-four-char-constants -Wno-conversion -Wno-constant-conversion -Wno-int-conversion -Wno-bool-conversion -Wno-enum-conversion -Wno-shorten-64-to-32 -Wno-newline-eof -Wno-c++11-extensions -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -fasm-blocks -fstrict-aliasing -Wdeprecated-declarations -Winvalid-offsetof -mmacosx-version-min=10.9 -g -fvisibility=hidden -fvisibility-inlines-hidden -Wno-sign-conversion -I/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/CompilerIdCXX.hmap -I/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/include -I/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include -I/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources/i386 -I/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/DerivedSources -F/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX -MMD -MT dependencies -MF /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.d --serialize-diagnostics /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.dia -c /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CMakeCXXCompilerId.cpp -o /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o36"E8CFE6C6-E5BB-442C-B90E-0ACA66F0BF4D-
+bB539892E-06E3-4C3D-B43C-531F1895646E
+
+CLd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX normal i386
+s418413800.218493
+e418413800.243812
+r1
+xLd
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX
+xnormal
+xi386
+d/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList
+d/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CMakeCXXCompilerId.o
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libc++.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/libSystem.dylib
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.eprintf.a
+d/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/5.1/lib/darwin/libclang_rt.osx.a
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcache.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcommonCrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcompiler_rt.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcopyfile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libcorecrypto.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdispatch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libdyld.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libkeymgr.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/liblaunch.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libmacho.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libquarantine.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libremovefile.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_asl.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_blocks.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_c.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_configuration.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_dnssd.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_info.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_kernel.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_m.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_malloc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_network.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_notify.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_platform.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_pthread.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libsystem_sandbox.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunc.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libunwind.dylib
+d/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/usr/lib/system/libxpc.dylib
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection148"Link /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX28"Ld CompilerIdCXX normal i386ceff37e87cf0b841^d76b3ee87cf0b841^---0#0#1#--1361"Ld CompilerIdCXX normal i386    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX    export MACOSX_DEPLOYMENT_TARGET=10.9    /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang++ -arch i386 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk -L/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX -F/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX -filelist /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX.LinkFileList -mmacosx-version-min=10.9 -Xlinker -dependency_info -Xlinker /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Objects-normal/i386/CompilerIdCXX_dependency_info.dat -o /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX36"5BE8393B-E44C-4922-8F4F-D400871CD1E2-
+bB539892E-06E3-4C3D-B43C-531F1895646E
+
+CPhaseScriptExecution Run\ Script /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+s418413800.245168
+e418413800.258867
+r1
+xPhaseScriptExecution
+xRun Script
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh
+oGCC_VERSION=com.apple.compilers.llvm.clang.1_0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection36"Run custom shell script 'Run Script'113"PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.shb8203fe87cf0b841^5a4642e87cf0b841^-47"GCC_VERSION=com.apple.compilers.llvm.clang.1_01(21%IDEActivityLogMessage2@47"GCC_VERSION=com.apple.compilers.llvm.clang.1_0-418413800#0#47#-0#-----0#0#1#--477"PhaseScriptExecution Run\ Script CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX    /bin/sh -c /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/2.8.12.1/CompilerIdCXX/CompilerIdCXX.build/Debug/CompilerIdCXX.build/Script-2C8FEB8E15DC1A1A00E56A5D.sh36"CFF2FCE4-8A94-4329-BCF0-9BF310821420-
+bB539892E-06E3-4C3D-B43C-531F1895646E
+

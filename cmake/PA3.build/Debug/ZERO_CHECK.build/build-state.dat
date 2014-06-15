@@ -1,0 +1,48 @@
+TZERO_CHECK
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh
+c00000000534045D00000000000000119
+t1396721104
+s281
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh
+c000000005340E1670000000000000119
+t1396760935
+s281
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencieseaccf13398f3b841^9dd94a3498f3b841^---0#1#1#--18"Check dependencies36"1CC4BA09-3492-494F-8B78-48CDA8B7CE7E-
+
+CPhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh
+s418453480.430448
+e418453480.638813
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh
+oecho ""
+o
+omake -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'197"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh6dc96ee817f1b841^378ba3e817f1b841^-293"echo ""make -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.makemake[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-418453480#0#8#-0#-----2@133"make -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.make-418453480#9#133#-0#-----2@151"make[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.-418453480#142#151#-0#-----0#0#1#--478"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/src    /bin/sh -c /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-42AE36CF43534B34902A0A17.sh36"0F7630ED-3620-42A8-B5AE-609579D3D7C4-
+bCA8A0A3B-780D-4216-8B7A-9E8ABD013757
+
+CPhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh
+s418617396.457151
+e418617397.415300
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh
+oecho ""
+o
+omake -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.make
+omake[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'197"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.shbdc27a3498f3b841^8b526a3598f3b841^-293"echo ""make -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.makemake[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.3(21%IDEActivityLogMessage2@8"echo ""-418617397#0#8#-0#-----2@133"make -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ReRunCMake.make-418617397#9#133#-0#-----2@151"make[1]: `/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeFiles/cmake.check_cache' is up to date.-418617397#142#151#-0#-----0#0#1#--478"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/src    /bin/sh -c /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ZERO_CHECK.build/Script-82DE4E28705C47E58AEF8CDD.sh36"B444CC08-19A4-4F92-B9D0-897D00395614-
+b94FA8E8D-18A5-46C6-82F6-0531AD7D56AA
+

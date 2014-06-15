@@ -1,0 +1,802 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		04B0AF0B556A412F8A88E429 /* ALL_BUILD */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = BD5EE0B984BE4FD1B71EDCC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */;
+			buildPhases = (
+				32D013E9135747B8A71AFA6C /* CMake Rules */,
+			);
+			dependencies = (
+				0785651569DB41189E91D26C /* PBXTargetDependency */,
+				7967066175D248429247FD4F /* PBXTargetDependency */,
+			);
+			name = ALL_BUILD;
+			productName = ALL_BUILD;
+		};
+		560C3AAA47EE466395989BA9 /* ZERO_CHECK */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = F9D1818037C2459C934F29A7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */;
+			buildPhases = (
+				82DE4E28705C47E58AEF8CDD /* CMake Rules */,
+			);
+			dependencies = (
+			);
+			name = ZERO_CHECK;
+			productName = ZERO_CHECK;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		01DD5C8FBC4841CFAB8B01D3 /* GLSLProgram.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4F36D635675D40409784AF99 /* GLSLProgram.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		839AA6E125E54500B75B6373 /* trackball.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2700D0D94CBF42AB9500D9C8 /* trackball.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		9EE5DDFE13E04E308B12C49A /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 4AF2A40E6E5D4F4EB9CCB23D /* main.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+		F94387D3B577420CB51A87DA /* GLScreenCapturer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A69E1E5E82BF44CEB09C88D3 /* GLScreenCapturer.cpp */; settings = {COMPILER_FLAGS = ""; }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0CE792411FEC4C6188E79493 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C2837A93843BBB61C0599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560C3AAA47EE466395989BA9;
+			remoteInfo = ZERO_CHECK;
+		};
+		676C19598EB340219A2E2201 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C2837A93843BBB61C0599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B00E2607C8E4B17BE227C73;
+			remoteInfo = pa3;
+		};
+		F2D8DD2B4E9B423EB2BC7B47 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD6C2837A93843BBB61C0599 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 560C3AAA47EE466395989BA9;
+			remoteInfo = ZERO_CHECK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2700D0D94CBF42AB9500D9C8 /* trackball.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = trackball.cpp; sourceTree = SOURCE_ROOT; };
+		3C7A72FB7C8F4C69860C7705 /* pa3 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; path = pa3; sourceTree = BUILT_PRODUCTS_DIR; };
+		4AF2A40E6E5D4F4EB9CCB23D /* main.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = main.cpp; sourceTree = SOURCE_ROOT; };
+		4F36D635675D40409784AF99 /* GLSLProgram.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = GLSLProgram.cpp; sourceTree = SOURCE_ROOT; };
+		5166B05C714C4379B15F9D8A /* trackball.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = trackball.h; sourceTree = SOURCE_ROOT; };
+		58348B51AAE04344AF02F12D /* shader.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = shader.h; sourceTree = SOURCE_ROOT; };
+		61F188E588874DE3BBBA4B3B /* GLSLProgram.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = GLSLProgram.h; sourceTree = SOURCE_ROOT; };
+		724B2477309D4B1A976E7B93 /* CMakeLists.txt */ = {isa = PBXFileReference; explicitFileType = sourcecode.text; fileEncoding = 4; lastKnownFileType = text; path = CMakeLists.txt; sourceTree = SOURCE_ROOT; };
+		A69E1E5E82BF44CEB09C88D3 /* GLScreenCapturer.cpp */ = {isa = PBXFileReference; explicitFileType = sourcecode.cpp.cpp; fileEncoding = 4; path = GLScreenCapturer.cpp; sourceTree = SOURCE_ROOT; };
+		DC763D549BE24A93BAEC6CAF /* GLScreenCapturer.h */ = {isa = PBXFileReference; explicitFileType = sourcecode.c.h; fileEncoding = 4; path = GLScreenCapturer.h; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		1998740337174B7DB1C8F319 /* ZERO_CHECK */ = {
+			isa = PBXGroup;
+			children = (
+				4DF1210B417744B2B736E5E1 /* CMake Rules */,
+				724B2477309D4B1A976E7B93 /* CMakeLists.txt */,
+			);
+			name = ZERO_CHECK;
+			sourceTree = "<group>";
+		};
+		1B8381D8AB9A489A8B13A41A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		4293B6A948174B4485E763A9 /* Source Files */ = {
+			isa = PBXGroup;
+			children = (
+				4F36D635675D40409784AF99 /* GLSLProgram.cpp */,
+				A69E1E5E82BF44CEB09C88D3 /* GLScreenCapturer.cpp */,
+				4AF2A40E6E5D4F4EB9CCB23D /* main.cpp */,
+				2700D0D94CBF42AB9500D9C8 /* trackball.cpp */,
+			);
+			name = "Source Files";
+			sourceTree = "<group>";
+		};
+		4DF1210B417744B2B736E5E1 /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		50FC167759234F658C5395FC = {
+			isa = PBXGroup;
+			children = (
+				EC2C4FD503EE4E9B85E28141 /* Sources */,
+				1B8381D8AB9A489A8B13A41A /* Resources */,
+				BBFE22096A7A4DAB86A89B35 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5A0C1B34E39843E58E813B0A /* CMake Rules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "CMake Rules";
+			sourceTree = "<group>";
+		};
+		84881253F66A40238EDE774C /* Header Files */ = {
+			isa = PBXGroup;
+			children = (
+				61F188E588874DE3BBBA4B3B /* GLSLProgram.h */,
+				DC763D549BE24A93BAEC6CAF /* GLScreenCapturer.h */,
+				58348B51AAE04344AF02F12D /* shader.h */,
+				5166B05C714C4379B15F9D8A /* trackball.h */,
+			);
+			name = "Header Files";
+			sourceTree = "<group>";
+		};
+		A30CDA67EAB14681B82D9037 /* ALL_BUILD */ = {
+			isa = PBXGroup;
+			children = (
+				5A0C1B34E39843E58E813B0A /* CMake Rules */,
+				724B2477309D4B1A976E7B93 /* CMakeLists.txt */,
+			);
+			name = ALL_BUILD;
+			sourceTree = "<group>";
+		};
+		BBFE22096A7A4DAB86A89B35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7A72FB7C8F4C69860C7705 /* pa3 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E53F62F5646C41E5AB7FF5BB /* pa3 */ = {
+			isa = PBXGroup;
+			children = (
+				4293B6A948174B4485E763A9 /* Source Files */,
+				84881253F66A40238EDE774C /* Header Files */,
+				724B2477309D4B1A976E7B93 /* CMakeLists.txt */,
+			);
+			name = pa3;
+			sourceTree = "<group>";
+		};
+		EC2C4FD503EE4E9B85E28141 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				A30CDA67EAB14681B82D9037 /* ALL_BUILD */,
+				1998740337174B7DB1C8F319 /* ZERO_CHECK */,
+				E53F62F5646C41E5AB7FF5BB /* pa3 */,
+			);
+			name = Sources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B00E2607C8E4B17BE227C73 /* pa3 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 658CF4D4D55E498FA452C158 /* Build configuration list for PBXNativeTarget "pa3" */;
+			buildPhases = (
+				055D03411D5C457298E1F490 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01BF17F348FA4BC08DDB6411 /* PBXTargetDependency */,
+			);
+			name = pa3;
+			productName = pa3;
+			productReference = 3C7A72FB7C8F4C69860C7705 /* pa3 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD6C2837A93843BBB61C0599 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+			};
+			buildConfigurationList = D1BC8957DC374FD19BE8765D /* Build configuration list for PBXProject "PA3" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 50FC167759234F658C5395FC;
+			projectDirPath = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/src";
+			projectRoot = "";
+			targets = (
+				04B0AF0B556A412F8A88E429 /* ALL_BUILD */,
+				560C3AAA47EE466395989BA9 /* ZERO_CHECK */,
+				4B00E2607C8E4B17BE227C73 /* pa3 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		32D013E9135747B8A71AFA6C /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ALL_BUILD_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+		82DE4E28705C47E58AEF8CDD /* CMake Rules */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			name = "CMake Rules";
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "make -C /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake -f /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/CMakeScripts/ZERO_CHECK_cmakeRulesBuildPhase.make$CONFIGURATION all";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		055D03411D5C457298E1F490 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01DD5C8FBC4841CFAB8B01D3 /* GLSLProgram.cpp in Sources */,
+				F94387D3B577420CB51A87DA /* GLScreenCapturer.cpp in Sources */,
+				9EE5DDFE13E04E308B12C49A /* main.cpp in Sources */,
+				839AA6E125E54500B75B6373 /* trackball.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01BF17F348FA4BC08DDB6411 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560C3AAA47EE466395989BA9 /* ZERO_CHECK */;
+			targetProxy = F2D8DD2B4E9B423EB2BC7B47 /* PBXContainerItemProxy */;
+		};
+		0785651569DB41189E91D26C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B00E2607C8E4B17BE227C73 /* pa3 */;
+			targetProxy = 676C19598EB340219A2E2201 /* PBXContainerItemProxy */;
+		};
+		7967066175D248429247FD4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 560C3AAA47EE466395989BA9 /* ZERO_CHECK */;
+			targetProxy = 0CE792411FEC4C6188E79493 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1615A289660240F6A2510796 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/build";
+			};
+			name = Debug;
+		};
+		1BBE4B77FF194363BC8F99C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/usr/local/lib/libGLEW.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pa3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		34F3A9567E674EC3933265CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = "     -Wno-deprecated";
+				OTHER_CPLUSPLUSFLAGS = "     -Wno-deprecated";
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/usr/local/lib/libGLEW.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pa3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		4A85C8260D6E480B81FC717B /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		4C2516B563B340218689933C /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/build";
+			};
+			name = MinSizeRel;
+		};
+		58D80702BC08467B8828C1A6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		5B25C864D45940CAAD9F09D6 /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/build";
+			};
+			name = RelWithDebInfo;
+		};
+		5D40B7F78799452E9278FE0B /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		6208561688604B21B0206060 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = s;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/usr/local/lib/libGLEW.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pa3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		9BE802CFC32F430EA5B89F68 /* MinSizeRel */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = MinSizeRel;
+		};
+		9D72425ACBBE4B39A152CD11 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ZERO_CHECK;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+		A0BA5B409FF743B7BDDF002A /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				EXECUTABLE_SUFFIX = "";
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 2;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				LIBRARY_SEARCH_PATHS = "";
+				OTHER_CFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_CPLUSPLUSFLAGS = (
+					"-DNDEBUG",
+					"-Wno-deprecated",
+				);
+				OTHER_LDFLAGS = (
+					"-Wl,-search_paths_first",
+					"-Wl,-headerpad_max_install_names",
+					"-framework",
+					GLUT,
+					"-framework",
+					Cocoa,
+					"-framework",
+					AGL,
+					"-framework",
+					OpenGL,
+					/usr/local/lib/libGLEW.dylib,
+				);
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = pa3;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		A7278E2109BA4446B2AFDE43 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk;
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/build";
+			};
+			name = Release;
+		};
+		B9FA86C7FBBB47C4ABF9B678 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Release;
+		};
+		CB58C1B730B3495D83A644BF /* RelWithDebInfo */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = RelWithDebInfo;
+		};
+		ECA10BF34C5442498A35FBEC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = "'CMAKE_INTDIR=\"$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)\"'";
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				HEADER_SEARCH_PATHS = (
+					/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.9.sdk/System/Library/Frameworks/GLUT.framework/Headers,
+					/usr/local/include,
+				);
+				INSTALL_PATH = "";
+				OTHER_CFLAGS = "   -Wno-deprecated";
+				OTHER_LDFLAGS = " ";
+				OTHER_REZFLAGS = "";
+				PRODUCT_NAME = ALL_BUILD;
+				SECTORDER_FLAGS = "";
+				SYMROOT = "/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake";
+				USE_HEADERMAP = NO;
+				WARNING_CFLAGS = (
+					"-Wmost",
+					"-Wno-four-char-constants",
+					"-Wno-unknown-pragmas",
+				);
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		658CF4D4D55E498FA452C158 /* Build configuration list for PBXNativeTarget "pa3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				34F3A9567E674EC3933265CC /* Debug */,
+				1BBE4B77FF194363BC8F99C5 /* Release */,
+				6208561688604B21B0206060 /* MinSizeRel */,
+				A0BA5B409FF743B7BDDF002A /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		BD5EE0B984BE4FD1B71EDCC6 /* Build configuration list for PBXAggregateTarget "ALL_BUILD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ECA10BF34C5442498A35FBEC /* Debug */,
+				B9FA86C7FBBB47C4ABF9B678 /* Release */,
+				9BE802CFC32F430EA5B89F68 /* MinSizeRel */,
+				CB58C1B730B3495D83A644BF /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		D1BC8957DC374FD19BE8765D /* Build configuration list for PBXProject "PA3" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1615A289660240F6A2510796 /* Debug */,
+				A7278E2109BA4446B2AFDE43 /* Release */,
+				4C2516B563B340218689933C /* MinSizeRel */,
+				5B25C864D45940CAAD9F09D6 /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		F9D1818037C2459C934F29A7 /* Build configuration list for PBXAggregateTarget "ZERO_CHECK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9D72425ACBBE4B39A152CD11 /* Debug */,
+				58D80702BC08467B8828C1A6 /* Release */,
+				5D40B7F78799452E9278FE0B /* MinSizeRel */,
+				4A85C8260D6E480B81FC717B /* RelWithDebInfo */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD6C2837A93843BBB61C0599 /* Project object */;
+}

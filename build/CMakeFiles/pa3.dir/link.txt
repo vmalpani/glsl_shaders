@@ -1,0 +1,1 @@
+/usr/bin/c++   -O3 -DNDEBUG -Wl,-search_paths_first -Wl,-headerpad_max_install_names   CMakeFiles/pa3.dir/main.cpp.o CMakeFiles/pa3.dir/trackball.cpp.o CMakeFiles/pa3.dir/GLSLProgram.cpp.o CMakeFiles/pa3.dir/GLScreenCapturer.cpp.o  -o pa3  -framework GLUT -framework Cocoa -framework AGL -framework OpenGL /usr/local/lib/libGLEW.dylib 

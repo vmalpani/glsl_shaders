@@ -1,0 +1,29 @@
+TALL_BUILD
+v6
+r1
+cCheck dependencies
+cPhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh
+
+N/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh
+c00000000534045D70000000000000118
+t1396721111
+s280
+
+CCheck dependencies
+r0
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection18"Check dependencies18"Check dependencies778483577df0b841^483584577df0b841^---0#1#1#--18"Check dependencies36"85696BDE-DF0B-463D-A3D6-BFBB6458BBE1-
+
+CPhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh
+s418413911.517635
+e418413911.668097
+r1
+xPhaseScriptExecution
+xCMake Rules
+x/Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh
+oecho ""
+o
+oecho Build\ all\ projects
+oBuild all projects
+lSLF06#21%IDEActivityLogSection1@2#32"com.apple.dt.IDE.BuildLogSection37"Run custom shell script 'CMake Rules'196"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh68e784577df0b841^ea09ab577df0b841^-54"echo ""echo Build\ all\ projectsBuild all projects3(21%IDEActivityLogMessage2@8"echo ""-418413911#0#8#-0#-----2@26"echo Build\ all\ projects-418413911#9#26#-0#-----2@19"Build all projects-418413911#35#19#-0#-----0#0#1#--476"PhaseScriptExecution CMake\ Rules /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh    cd /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/src    /bin/sh -c /Users/Ampersund/Documents/Acads/Columbia/Spring14/comp_graphics/hw/pa-3/code/pa3_starter/cmake/PA3.build/Debug/ALL_BUILD.build/Script-6D8E7F7AAE4B44C6B9CE73B0.sh36"17CE00BB-F4FD-411B-B304-9165B1693B2C-
+b01F1576E-282A-4F4F-AE29-F90B752BAD85
+
